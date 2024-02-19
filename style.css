@@ -1,0 +1,75 @@
+body{
+    margin: auto;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+div.body{
+    margin: auto;
+    padding: 26px 32px;
+}
+div.nav{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    padding: 12px 0px;
+    background-color: #1cd378;
+    width:100%;
+}
+div nav a {
+    text-decoration: none;
+    background: #333;
+    border-radius: 5px;
+    color: white;
+    padding: 3px 8px;
+  }
+#about_me{
+    padding: 45px 0 0 0;
+}
+div.grid-container{
+    margin-left: auto;
+    margin-right: 200px;
+    display: grid;
+    grid-template-columns: 250px 250px 250px 250px;
+    column-gap: 30px; 
+}
+.grid-container > div {
+    background-color: rgb(176, 255, 176);
+    border-radius: 35px;
+    text-align: left;
+    padding: 20px;
+  }
+#My_Collection{
+    padding: 45px 0 0 0;
+}
+div.Gallery{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    column-gap: 30px;
+    row-gap: 30px ;
+}
+div.Gallery > img{
+    border-radius: 35px;
+}
+#Contact_me{
+    padding: 45px 0 0 0;
+}
+#Contact_me > img{
+    float: left;
+    border-radius: 100px;
+    margin: 0px 72px 42px 0px;
+}
+div input{
+    margin:auto;
+    background-color: #1cd378;
+    color: white;
+    border-radius: 16px;
+    border: none;
+    font-size: 16px;
+    display: inline-block;
+    height: 40px;
+    width: 120px;
+}
+div input:hover {
+    background-color: #333;
+    color: white;
+  }
+
